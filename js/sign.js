@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // SIDENAV
+  const sideNav = document.querySelector(".sidenav");
+  M.Sidenav.init(sideNav, {
+    edge: "right",
+  });
+
+  //   NAV BAR
   const navBar = document.querySelector("nav");
   window.addEventListener("scroll", () => {
     if (window.scrollY > 32) {

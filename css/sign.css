@@ -2,6 +2,7 @@
   font-family: Poppins, sans-serif;
   box-sizing: border-box;
 }
+
 *:focus {
   outline: none;
 }
@@ -37,20 +38,8 @@ span {
   border-radius: 50px;
   text-transform: none;
 }
-.sidenav-trigger {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.line1,
-.line2,
-.line3 {
-  display: block;
-  width: 25px;
-  height: 2px;
-}
-.line2 {
-  margin: 5px 0;
+.sidenav {
+  padding: 2rem 0;
 }
 body {
   background-image: url(../images/bg-tablet-pattern.svg);
@@ -100,6 +89,7 @@ button {
 .form-wrapper > form > span span {
   font-weight: 700;
   text-decoration: underline;
+  cursor: pointer;
 }
 #sign-up-wrapper {
   position: absolute;

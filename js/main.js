@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   // SIDENAV
   const sideNav = document.querySelector(".sidenav");
-  M.Sidenav.init(sideNav);
+  M.Sidenav.init(sideNav, {
+    edge: "right",
+  });
 
   //   CAROUSEL
   const carousel = document.querySelector(".carousel");
