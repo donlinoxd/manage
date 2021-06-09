@@ -241,6 +241,7 @@ input {
 #container.right-panel-active .overlay-right {
   transform: translateX(20%);
 }
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 601px) {
   h2 {
